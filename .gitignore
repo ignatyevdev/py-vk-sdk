@@ -1,0 +1,14 @@
+.idea/
+
+venv/
+
+vk/__pycache__
+vk/sdk/__pycache__
+vk/sdk/methods/__pycache__
+vk/sdk/methods/likes_method/__pycache__
+vk/sdk/methods/users_methods/__pycache__
+vk/sdk/methods/wall_methods/__pycache__
+vk/sdk/objects/__pycache__
+
+
+tests/
