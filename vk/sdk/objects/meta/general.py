@@ -30,11 +30,20 @@ class Place(MetaObject):
         super().__init__(meta_data)
 
 
+class Coordinates(MetaObject):
+
+    def __init__(self, meta_data):
+
+        self.latitude = None
+        self.longitude = None
+        super().__init__(meta_data)
+
+
 class Geo(MetaObject):
 
     def __init__(self, meta_data):
 
         self.type = None
-        self.coordinates = None
+        self.coordinates: Coordinates = None
         self.place: Place = None
         super().__init__(meta_data)
