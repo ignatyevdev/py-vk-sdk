@@ -10,5 +10,5 @@ class Action(MetaObject):
         self.member_id = None
         self.text = None
         self.email = None
-        self.photo = None
+        self.photo: Photo = None
         super().__init__(meta_data)
