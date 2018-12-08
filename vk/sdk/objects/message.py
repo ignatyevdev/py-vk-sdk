@@ -23,7 +23,7 @@ class Message(VKObject):
         self.ref_source = None
         self.attachments = None                 # List[Attachment]
         self.important = None
-        self.geo: Geo= None
+        self.geo: Geo = None
         self.payload = None
         self.fwd_messages: List[Message] = None
         self.reply_message: Message = None
